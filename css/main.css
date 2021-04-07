@@ -8,6 +8,12 @@ p {
   margin-left: 50px;
 }
 
+p {
+  font-size: 1.25em !important;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #9e9e9e;
+}
 /* removing overflow  */
 body {
   overflow-x: hidden;
@@ -49,12 +55,13 @@ body {
   font-size: 1.25em;
   color: #9e9e9e;
   list-style: none;
+  /* margin-left: 40px; */
 }
 
 .header #job-info ul li {
   display: inline;
   /* float: left; */
-  padding: 15px;
+  /* padding: 15px; */
 }
 .nav-item.active {
   background-color: #f3f5ff;

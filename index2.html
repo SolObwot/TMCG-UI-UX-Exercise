@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- external css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+<title>Boostrap | UI/UX Exercise </title>
+<style>
+
+</style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container-fluid" id="job-info">
+        <!-- navbar -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img id="logo" src="./img/logo.JPG" alt="logo" width="35" height="30"></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Jobs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Applicants</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Company</a>
+                      </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <i class="far fa-bell"></i>
+                    </form>
+                    <img src="./img/woman.png" alt="Avatar" class="avatar">
+                  </div>
+                </nav>
+              <hr>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <p>Jobs > Engineering</p>
+                        <h1>Backend Engineering</h1>
+                        <ul>
+                            <li><i class="fas fa-briefcase"></i> Full-time</li>
+                            <li><i class="fas fa-map-marker-alt"></i> Remote</li>
+                            <li><i class="fas fa-dollar-sign"></i> $120-140$</li>
+                            <li><i class="fas fa-calendar-week"></i> Closing on January 9, 2020</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-outline-secondary"><i class="fas fa-pen"></i> Edit</button>
+                        <button type="button" class="btn btn-outline-secondary"><i class="fas fa-link"></i> View</button>
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" disabled><i class="fas fa-check"></i> Published</button>
+                    </div>
+              </div>
+            </div>
+              
+    </div>
+      
+     <!-- main content -->
+     <div class="content">
+      <div class="container-fluid">
+          <div class="row">
+              <h4 class="pt-4" style="padding-left: 30px;">Candidates</h4>
+              <div class="col-md-12" id="tab-wrapper">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Applied 
+                        <span class="badge badge-secondary badge-pill">2</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Phone Screening
+                        <span class="badge badge-secondary badge-pill">4</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Interview
+                        <span class="badge badge-secondary badge-pill">6</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Offer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disqualified</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <div class="row pt-4">
+              <div class="col-md-6">
+                  <div class="d-flex bd-highlight">
+                      <div class="p-2 flex-fill bd-highlight">
+                        <img class="rounded-circle float-left" src="./img/woman.png" width="80" height="80">
+                        <p class="float-left">Emily Selman
+                          <small class="form-text text-muted"> <i class="fas fa-envelope"></i> emilyselman@example.com</small>
+                        </p>
+                      </div>
+                    </div>
+                   
+              </div>
+              <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <div class="d-flex bd-highlight">
+                        <div class="p-2 flex-fill bd-highlight">
+                          <p class="float-left" style="color: #000;">Applied on January 7, 2021
+                            <small class="form-text text-muted"><i class="fas fa-check-circle" style="color: #58b685;"></i>  Completed phone screening</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="col-md-4">
+                          <p><i class="fas fa-greater-than"></i></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <div class="row pt-4">
+            <div class="col-md-6">
+                <div class="d-flex bd-highlight">
+                    <div class="p-2 flex-fill bd-highlight">
+                      <img class="rounded-circle float-left" src="./img/profile.png" width="80" height="80">
+                      <p class="float-left">Micheal Foster
+                        <small class="form-text text-muted"> <i class="fas fa-envelope"></i> michealfoster@example.com</small>
+                      </p>
+                    </div>
+                  </div>
+                 
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-8">
+                    <div class="d-flex bd-highlight">
+                      <div class="p-2 flex-fill bd-highlight">
+                        <p class="float-left" style="color: #000;">Applied on January 7, 2021
+                          <small class="form-text text-muted"><i class="fas fa-check-circle" style="color: #58b685;"></i>  Completed phone screening</small>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-md-4">
+                        <p><i class="fas fa-greater-than"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row pt-4">
+          <div class="col-md-6">
+              <div class="d-flex bd-highlight">
+                  <div class="p-2 flex-fill bd-highlight">
+                    <img class="rounded-circle float-left" src="./img/profile.png" width="80" height="80">
+                    <p class="float-left">Emma Dorsey
+                      <small class="form-text text-muted"> <i class="fas fa-envelope"></i> emmadorsey@example.com</small>
+                    </p>
+                  </div>
+                </div>
+               
+          </div>
+          <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="d-flex bd-highlight">
+                    <div class="p-2 flex-fill bd-highlight">
+                      <p class="float-left" style="color: #000;">Applied on January 7, 2021
+                        <small class="form-text text-muted"><i class="fas fa-check-circle" style="color: #58b685;"></i>  Completed phone screening</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col-md-4">
+                      <p><i class="fas fa-greater-than"></i></p>
+                  </div>
+              </div>
+          </div>
+            </div>
+            <hr>
+            <div class="row pt-4">
+              <div class="col-md-6">
+                  <div class="d-flex bd-highlight">
+                      <div class="p-2 flex-fill bd-highlight">
+                        <img class="rounded-circle float-left" src="./img/woman.png" width="80" height="80">
+                        <p class="float-left">Anna Roberts
+                          <small class="form-text text-muted"> <i class="fas fa-envelope"></i> annaroberts@example.com</small>
+                        </p>
+                      </div>
+                    </div>
+                  
+              </div>
+              <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <div class="d-flex bd-highlight">
+                        <div class="p-2 flex-fill bd-highlight">
+                          <p class="float-left" style="color: #000;">Applied on January 7, 2021
+                            <small class="form-text text-muted"><i class="fas fa-check-circle" style="color: #58b685;"></i>  Completed phone screening</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="col-md-4">
+                          <p><i class="fas fa-greater-than"></i></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <div class="row pt-4">
+            <div class="col-md-6">
+                <div class="d-flex bd-highlight">
+                    <div class="p-2 flex-fill bd-highlight">
+                      <img class="rounded-circle float-left" src="./img/woman.png" width="80" height="80">
+                      <p class="float-left">Benjamin Russel
+                        <small class="form-text text-muted"> <i class="fas fa-envelope"></i> benjaminrussel@example.com</small>
+                      </p>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-8">
+                    <div class="d-flex bd-highlight">
+                      <div class="p-2 flex-fill bd-highlight">
+                        <p class="float-left" style="color: #000;">Applied on January 7, 2021
+                          <small class="form-text text-muted"><i class="fas fa-check-circle" style="color: #58b685;"></i>  Completed phone screening</small>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-md-4">
+                        <p><i class="fas fa-greater-than"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row pt-4">
+          <div class="col-md-6">
+              <div class="d-flex bd-highlight">
+                  <div class="p-2 flex-fill bd-highlight">
+                    <img class="rounded-circle float-left" src="./img/woman.png" width="80" height="80">
+                    <p class="float-left">Courtney Henry
+                      <small class="form-text text-muted"> <i class="fas fa-envelope"></i> courtneyhenry@example.com</small>
+                    </p>
+                  </div>
+                </div>
+              
+          </div>
+          <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="d-flex bd-highlight">
+                    <div class="p-2 flex-fill bd-highlight">
+                      <p class="float-left" style="color: #000;">Applied on January 7, 2021
+                        <small class="form-text text-muted"><i class="fas fa-check-circle" style="color: #58b685;"></i>  Completed phone screening</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col-md-4">
+                      <p><i class="fas fa-greater-than"></i></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <hr>
+      <div class="row pt-4">
+        <div class="col-md-6">
+            <div class="d-flex bd-highlight">
+                <div class="p-2 flex-fill bd-highlight">
+                  <img class="rounded-circle float-left" src="./img/profile.png" width="80" height="80">
+                  <p class="float-left">Lawrence Hunter
+                    <small class="form-text text-muted"> <i class="fas fa-envelope"></i> lawrencehunter@example.com</small>
+                  </p>
+                </div>
+              </div>
+            
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="p-2 flex-fill bd-highlight">
+                  <p class="float-left" style="color: #000;">Applied on January 7, 2021
+                    <small class="form-text text-muted"><i class="fas fa-check-circle" style="color: #58b685;"></i>  Completed phone screening</small>
+                  </p>
+                </div>
+              </div>
+                <div class="col-md-4">
+                    <p><i class="fas fa-greater-than"></i></p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row pt-4">
+        <div class="col-md-6">
+            <div class="d-flex bd-highlight">
+                <div class="p-2 flex-fill bd-highlight">
+                  <img class="rounded-circle float-left" src="./img/woman.png" width="80" height="80">
+                  <p class="float-left">Alicia Bell
+                    <small class="form-text text-muted"> <i class="fas fa-envelope"></i> aliciabell@example.com</small>
+                  </p>
+                </div>
+              </div>
+            
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="p-2 flex-fill bd-highlight">
+                  <p class="float-left" style="color: #000;">Applied on January 7, 2021
+                    <small class="form-text text-muted"><i class="fas fa-check-circle" style="color: #58b685;"></i>  Completed phone screening</small>
+                  </p>
+                </div>
+              </div>
+                <div class="col-md-4">
+                    <p><i class="fas fa-greater-than"></i></p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <hr>
+      </div>
+    </div>
+
+    <!-- pagination -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-1">
+          <i class="fas fa-arrow-left"></i> Previous</a>
+        </div>
+        <div class="col-lg-10">
+          <nav aria-label="..." class="mx-auto" style="width: 200px;">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+              <li class="page-item"><a class="page-link" href="#">5</a></li>
+              <li class="page-item"><a class="page-link" href="#">6</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-lg-1">
+          Next <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+   -->
+  </body>
+</html>
